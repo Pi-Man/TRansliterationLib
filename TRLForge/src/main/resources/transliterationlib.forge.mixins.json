@@ -4,15 +4,14 @@
   "compatibilityLevel": "JAVA_8",
   "refmap": "transliterationlib.forge.refmap.json",
   "mixins": [
+  ],
+  "client":[
     "PlayerSkinProviderMixin",
     "AbstractClientPlayerEntityMixin",
     "DefaultSkinHelperMixin",
     "PlayerEntityMixin",
     "PlayerEntityModelMixin",
     "HeldItemFeatureRendererMixin"
-  ],
-  "client":[
-    
   ],
   "injectors": {
     "defaultRequire": 1
